@@ -60,7 +60,7 @@ public class LoginActivity extends Activity {
 					dialog.show();
 				}
 				else {
-					// Login
+					// Login existing user
 					setProgressBarIndeterminateVisibility(true);
 					ParseUser.logInInBackground(username, password, new LogInCallback() {			
 						@Override
