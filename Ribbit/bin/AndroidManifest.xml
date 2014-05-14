@@ -55,6 +55,15 @@
         <activity
             android:name="com.marcolivergern.ribbit.RecipientsActivity"
             android:label="@string/title_activity_recipients"
+            android:parentActivityName="com.marcolivergern.ribbit.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.marcolivergern.ribbit.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.marcolivergern.ribbit.ViewImageActivity"
+            android:label="@string/title_activity_view_image"
             android:parentActivityName="com.marcolivergern.ribbit.MainActivity" android:screenOrientation="portrait">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
